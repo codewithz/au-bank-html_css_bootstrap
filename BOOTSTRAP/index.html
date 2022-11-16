@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- navbar starts here -->
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar ends here -->
+
+      <h1 class="page-header">Bootstrap Playground</h1>
+
+      <p class="lead">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus
+        magni asperiores, obcaecati perferendis expedita incidunt nemo ut
+        praesentium explicabo a dolorum illo enim aliquid temporibus sed!
+        Placeat minus quibusdam dignissimos tempore libero quidem alias odit
+        accusantium quasi sapiente iste perspiciatis, autem eius ad, minima
+        corporis quia possimus molestias quo deleniti.
+      </p>
+
+      <p>
+        <mark>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+          labore eaque consequatur officia quas minima pariatur architecto hic
+          beatae nihil.
+        </mark>
+      </p>
+
+      <hr />
+
+      <!-- Alignments -->
+
+      <p class="text-start">Left Aligned Text</p>
+      <p class="text-end">Right Aligned Text</p>
+      <p class="text-center">Center Aligned Text</p>
+
+      <hr />
+
+      <!-- Floating -->
+
+      <div style="height: 50px; background-color: dodgerblue" class="float-end">
+        Right Floating Div
+      </div>
+      <div style="height: 50px; background-color: gold" class="float-start">
+        Left Floating Div
+      </div>
+      <div class="clearfix"></div>
+
+      <hr />
+
+      <!-- List Unstyled -->
+      <ul class="list-unstyled">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+      </ul>
+
+      <hr />
+      <!-- COLORS -->
+      <p class="text-primary">Hello World</p>
+      <p class="text-secondary">Hello World</p>
+      <p class="text-success">Hello World</p>
+      <p class="text-danger">Hello World</p>
+      <p class="text-warning">Hello World</p>
+      <p class="text-info">Hello World</p>
+      <p class="text-muted">Hello World</p>
+
+      <hr />
+      <!-- COLORS -->
+      <p class="bg-primary">Hello World</p>
+      <p class="bg-secondary">Hello World</p>
+      <p class="bg-success">Hello World</p>
+      <p class="bg-danger">Hello World</p>
+      <p class="bg-warning">Hello World</p>
+      <p class="bg-info">Hello World</p>
+      <p class="bg-muted">Hello World</p>
+      <!-- container ends here -->
+    </div>
+
+    <hr />
+
+    <div class="container">
+      <!-- Buttons -->
+      <button class="btn btn-primary">Default</button>
+      <a href="#" class="btn btn-warning">Link Button</a>
+      <input type="submit" value="Submit Button" class="btn btn-info" />
+      <br /><br />
+      <!-- Sizes -->
+      <button class="btn btn-primary btn-lg">Button</button>
+      <button class="btn btn-success">Button</button>
+      <button class="btn btn-danger btn-sm">Button</button>
+      <!-- div ends here -->
+    </div>
+    <br /><br />
+    <hr />
+    <div class="container">
+      <!-- Forms -->
+      <div class="form-group">
+        <label for="Name">Name:</label>
+        <input type="text" class="form-control" placeholder="Enter Name..." />
+      </div>
+      <br />
+      <div class="form-group">
+        <label for="Name">Email:</label>
+        <input type="email" class="form-control" placeholder="Enter Email..." />
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label"
+          >Example textarea</label
+        >
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+        ></textarea>
+
+        <select
+          class="form-select form-select-lg mb-3"
+          aria-label=".form-select-lg example"
+        >
+          <option selected>Select Gender</option>
+          <option value="1">Male</option>
+          <option value="2">Female</option>
+          <option value="3">Other</option>
+        </select>
+
+        <div class="col-12">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="invalidCheck"
+              required
+            />
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <hr />
+    <div class="container">
+      <!-- Tables -->
+      <table class="table table-striped table-bordered table-hover">
+        <thead>
+          <tr>
+            <td>ID</td>
+            <td>NAME</td>
+            <td>AGE</td>
+            <td>GENDER</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Tom</td>
+            <td>25</td>
+            <td>Male</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Alex</td>
+            <td>26</td>
+            <td>Male</td>
+          </tr>
+          <tr class="bg-info">
+            <td>3</td>
+            <td>Penny</td>
+            <td>24</td>
+            <td>Female</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Elizabeth</td>
+            <td>30</td>
+            <td>Female</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <br /><br />
+      <hr />
+      <!-- List -->
+      <ul class="list-group">
+        <li class="list-group-item">Item 1</li>
+        <li class="list-group-item">Item 2</li>
+        <li class="list-group-item active">Item 3</li>
+        <li class="list-group-item">Item 4</li>
+        <li class="list-group-item">Item 5</li>
+      </ul>
+    </div>
+    <br /><br />
+    <div class="container">
+      <div class="card" style="width: 18rem">
+        <img src="onlinebanking.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Alerts and Progress Bar -->
+      <div role="alert" class="alert alert-primary">Hello World</div>
+      <div role="alert" class="alert alert-secondary">Hello World</div>
+      <div role="alert" class="alert alert-success">Hello World</div>
+      <div role="alert" class="alert alert-danger">Hello World</div>
+      <div role="alert" class="alert alert-warning">Hello World</div>
+      <div role="alert" class="alert alert-info">Hello World</div>
+      <div role="alert" class="alert alert-muted">Hello World</div>
+
+      <br /><br />
+      <div class="progress">
+        <div
+          style="width: 50%; text-align: center"
+          class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+        >
+          50%
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <hr />
+    <div class="container">
+      <!-- Images -->
+      <img
+        src="onlinebanking.jpg"
+        style="width: 100px; height: 100px"
+        class="rounded-circle"
+      />
+      <img
+        src="onlinebanking.jpg"
+        style="width: 100px; height: 100px"
+        class="img-thumbnail"
+      />
+    </div>
+
+    <div style="height: 300px"></div>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="" autocomplete="on">
+      <label for="Name"> Enter your Name: </label>
+      <input type="text" name="name" />
+      <br />
+      <br />
+
+      <label for="age">Enter your age:</label>
+      <input type="number" name="age" min="18" max="120" step="1" />
+
+      <br />
+      <br />
+
+      <label for="CV">Upload your CV</label>
+      <input type="file" name="CV" multiple />
+
+      <br /><br />
+      <label for="git repo">Enter your Git Repo URL :</label>
+      <input type="url" name="url" />
+
+      <br /><br />
+
+      Address:
+      <textarea
+        name="address"
+        cols="30"
+        rows="10"
+        placeholder="Flat, Society, Road, City"
+      ></textarea>
+
+      <br />
+      <br />
+
+      <label for="country">Enter Country:</label>
+      <input type="text" name="country" value="India" readonly />
+
+      <br /><br />
+
+      <label for="Gender">Gender:</label>
+      <input type="radio" name="gender" value="M" /> Male
+      <input type="radio" name="gender" value="F" /> Female
+      <input type="radio" name="gender" value="O" /> Other
+
+      <br /><br />
+
+      <label for="languages">Technology Stack You Know ?</label>
+      <input type="checkbox" name="tech" value="J" /> Java
+      <input type="checkbox" name="tech" value="JS" /> JavaScript
+      <input type="checkbox" name="tech" value="SB" /> SpringBoot
+      <input type="checkbox" name="tech" value="G" /> Git
+
+      <br /><br />
+      <label for="location">Preffered Location :</label>
+      <select name="city">
+        <option value="BOM">Mumbai</option>
+        <option value="MAA">Chennai</option>
+        <option value="BLR">Bengaluru</option>
+        <option value="HYD">Hyderabad</option>
+      </select>
+      <br /><br />
+      <label for="Email">Enter your email: </label>
+      <input type="email" name="email" />
+
+      <br /><br />
+      <label for="color">Choose Your fav color: </label>
+      <input type="color" name="color" />
+
+      <br /><br />
+      <label for="bdate">Birth Date</label>
+      <input type="date" name="bdate" />
+
+      <br /><br />
+      <label for="datetime">Select date and time for interview</label>
+      <input type="datetime-local" name="itime" />
+
+      <br /><br />
+      <label for="week">Select the week you will deliver the assignment</label>
+      <input type="week" name="itime" />
+
+      <br /><br />
+      <label for="month">Select the month of graduation</label>
+      <input type="month" name="itime" />
+
+      <br /><br />
+      <input type="submit" value="Submit Data" />
+    </form>
+  </body>
+</html>
